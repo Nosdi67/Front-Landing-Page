@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+#block1{
+
+ background: radial-gradient(rgb(139,195,245),#1294b8);   
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.80;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 160px;
+    
+}
+nav a{
+    color: white;
+}
+nav h1{
+    color: white;
+    font-size: 40px;
+}
+     
+nav div ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+nav div figure{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.photo_nav{
+
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.photo_nav img{
+
+    max-height: 30px;
+    max-width: 30px;
+
+}
+.newsletterbox{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-content: center;
+    padding: 0px 80px;
+    gap: 150px;
+    
+
+}
+
+.newsletter{
+
+    display: flex;
+    flex-direction: column;
+    padding-left:200px;
+    
+}
+.newsletter article h1{
+
+    font-size: 55px;
+    margin-bottom: 30px;
+    
+    
+}
+.newsletter article p{
+    opacity:0.90;
+    padding-right: 100px;
+    text-align: justify;
+    font-size:24px
+
+}
+.inputEmail {
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    padding-top:15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    
+   
+}.bouttonEmail{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    top: 30px;
+    left: 360px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(99, 161, 216);
+    color: white;
+
+}
+.bouttonEmail:hover{
+
+    opacity: 0.80;
+}
+
+.newsletter_svg img{
+
+    height: 700px;
+    width: 800px;
+    padding-bottom: 150px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color:rgb(250, 249, 246) ;
+}
+.product p{
+
+    padding: 0px 500px;
+    opacity: 0.80;
+}
+.blockCard{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 200px;
+    background-color:rgb(250, 249, 246) ;
+}
+.card{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    background: radial-gradient(rgb(139,195,245),#1294b8);
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+.card i{
+
+    padding: 50px 20px;
+}
+.card p{
+
+    padding: 20px;
+}
+.card:hover{
+
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.product2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 0px;
+    text-align: center;
+    background-color:rgb(250, 249, 246) ;
+}
+.product2 p{
+
+    padding: 0px 480px;
+    opacity: 0.80;
+    text-align: center;
+}
+.product2 h2{
+
+    padding: 10px 500px;
+}
+.blockPersonnes{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    padding: 30px;
+}
+.personne img{
+
+    height: 200px;
+    filter: grayscale(1);
+    transition: 0.5s;
+    border-radius: 100%;
+
+}
+.personne img:hover{
+
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+.personne p{
+
+    text-align: center;
+}
+.petitTexte{
+
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.petitTexte2{
+
+    opacity: 0.8;
+}
