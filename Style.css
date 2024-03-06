@@ -209,7 +209,6 @@ nav div figure{
     padding: 10px 500px;
 }
 .blockPersonnes{
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -218,8 +217,12 @@ nav div figure{
     margin: 40px;
     padding: 30px;
 }
-.personne img{
 
+.personne{
+    position: relative;
+    padding: 10px 50px;
+}
+.personne img{
     height: 200px;
     filter: grayscale(1);
     transition: 0.5s;
@@ -244,4 +247,46 @@ nav div figure{
 .petitTexte2{
 
     opacity: 0.8;
+}
+
+
+ .iconesBlock{
+
+    position: relative;
+
+ }
+ .iconesPersonne1{
+
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top:115px;
+ }
+.iconesPersonne2{
+
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top:145px;
+}
+.iconesPersonne3{
+
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top:175px;
+}
+
+.personne:hover .iconesPersonne1{
+
+    background-color: antiquewhite;
 }
